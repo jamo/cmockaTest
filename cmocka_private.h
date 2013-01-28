@@ -17,7 +17,7 @@
 #ifndef CMOCKA_PRIVATE_H_
 #define CMOCKA_PRIVATE_H_
 
-#include <cmocka.h>
+#include "cmocka.h"
 
 /** Free memory space */
 #define SAFE_FREE(x) do { if ((x) != NULL) {free(x); x=NULL;} } while(0)

@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-
 typedef struct dList {
   int x;
   struct dList *next;
